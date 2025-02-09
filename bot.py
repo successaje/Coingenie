@@ -28,11 +28,9 @@ logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=lo
 nlp_pipeline = pipeline("text-classification", model="facebook/bart-large-mnli")
 model = pipeline("text2text-generation", model="facebook/blenderbot-400M-distill")
 
-# Solana RPC Endpoint (Change if needed)
 SOLANA_RPC_URL = "https://api.devnet.solana.com"
 solana_client = Client(SOLANA_RPC_URL)
 
-# Solana Explorer URL
 EXPLORER_URL = "https://solscan.io/"
 
 # Intent categories (These match what our bot can do)
