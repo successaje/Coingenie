@@ -1,0 +1,95 @@
+# Coingenie - Your AI-Powered Web3 Assistant
+
+Coingenie is an AI-powered Telegram bot that simplifies blockchain interactions on **Solana** and **Flow**. With Coingenie, you can:
+- **Create tokens** on Solana and Flow.
+- **Bridge tokens** between chains.
+- **Swap tokens** on decentralized exchanges.
+- **Manage assets** and check balances.
+- **Schedule transactions** for future execution.
+- **Learn about Web3** with built-in educational features.
+
+Powered by **Hugging Face models**, **Solana Python SDK**, and **Flow Python SDK**, Coingenie makes blockchain accessible to everyone.
+
+---
+
+## Features
+
+- **Token Creation**: Create tokens on Solana and Flow with a single command.
+- **Bridging**: Seamlessly bridge tokens between Solana and Flow.
+- **Swapping**: Swap tokens on decentralized exchanges.
+- **Asset Management**: Check balances, transfer tokens, and schedule transactions.
+- **Education**: Learn about Web3, Solana, Flow, and blockchain concepts.
+
+---
+
+## How It Works
+
+1. **User Interaction**: Users interact with the bot via Telegram.
+2. **AI Processing**: The bot uses **Hugging Face models** to understand user requests.
+3. **Blockchain Actions**: The bot executes blockchain actions using **Solana Python SDK** and **Flow Python SDK**.
+4. **User Feedback**: Users receive instant feedback and transaction details.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.8 or higher
+- Telegram bot token (get it from [BotFather](https://core.telegram.org/bots#botfather))
+- Solana and Flow SDKs installed
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/coingenie.git
+   cd coingenie
+    ```
+2. Install dependecies
+    ```pip install -r requirements.txt```
+
+3. Set up your environment variables:
+    ```bash
+    export TELEGRAM_BOT_TOKEN="your-telegram-bot-token"
+    export SOLANA_RPC_URL="https://api.devnet.solana.com"
+    export FLOW_RPC_URL="https://rest-testnet.onflow.org"
+    ```
+
+4. Run the bot:
+    ```bash
+    Copy
+    python bot.py```
+
+-------
+
+### Usage
+
+Commands
+``
+/start: Start the bot and see available commands.
+
+/create_account: Create a new Solana wallet.
+
+/balance <address>: Check the balance of a wallet.
+
+/send <receiver> <amount>: Send SOL to another wallet.
+
+/create_token_solana <name> <symbol> <supply> <decimals>: Create a token on Solana.
+
+/create_token_flow <name> <symbol> <supply> <decimals>: Create a token on Flow.
+
+/bridge <source_chain> <target_chain> <amount> <token>: Bridge tokens between chains.
+
+/swap <input_token> <output_token> <amount>: Swap tokens on a DEX.
+
+/transfer <sender> <receiver> <amount> <token>: Transfer tokens to another wallet.
+
+/schedule <wallet> <amount> <token> <time>: Schedule a transaction for a future time.
+
+/help: Show the help menu.
+
+``
+
+
+

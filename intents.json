@@ -1,0 +1,176 @@
+{
+    "intents": [
+      {
+        "name": "create_account",
+        "patterns": [
+          "generate a new wallet for me",
+          "create wallet",
+          "I need a new wallet",
+          "Can you create a new account for me?",
+          "new solana account",
+          "generate wallet"
+        ]
+      },
+      {
+        "name": "check_balance",
+        "patterns": [
+          "can you check my balance for me?",
+          "check balance",
+          "What's my Solana balance?",
+          "How much do I have left?",
+          "wallet balance",
+          "how much sol"
+        ]
+      },
+      {
+        "name": "send_sol",
+        "patterns": [
+          "send {amount} sol to {address}",
+          "send money",
+          "send sol",
+          "I want to transfer",
+          "transfer tokens"
+        ]
+      },
+      {
+        "name": "create_token_solana",
+        "patterns": [
+          "Can you help create a token named {token_name} with symbol {symbol}, {supply} supply and {decimals} decimals?",
+          "new token solana",
+          "create cryptocurrency on solana",
+          "deploy token on solana",
+          "launch a token",
+          "generate token",
+          "create memecoin"
+        ]
+      },
+      {
+        "name": "create_token_flow",
+        "patterns": [
+          "Can you create a token on Flow named {token_name} with symbol {symbol}?",
+          "new token on flow",
+          "create cryptocurrency on flow",
+          "deploy token on flow",
+          "make a token",
+          "create a new token"
+        ]
+      },
+      {
+        "name": "transfer_tokens",
+        "patterns": [
+          "transfer {amount} {token}",
+          "transfer {amount} {token} to {address}",
+          "send some {token} to that address",
+          "resend the {token}, making it two transactions"
+        ]
+      },
+      {
+        "name": "bridge_tokens",
+        "patterns": [
+          "bridge tokens",
+          "move tokens to {blockchain}",
+          "transfer tokens to {blockchain}",
+          "bridge {from_blockchain} to {to_blockchain}",
+          "cross-chain transfer",
+          "bridge crypto"
+        ]
+      },
+      {
+        "name": "swap_tokens",
+        "patterns": [
+          "swap tokens",
+          "exchange tokens",
+          "trade {amount} {from_token} for {to_token}",
+          "swap crypto",
+          "convert tokens",
+          "trade tokens",
+          "swap solana tokens"
+        ]
+      },
+      {
+        "name": "schedule_transaction",
+        "patterns": [
+          "schedule a transaction",
+          "set up a future transfer",
+          "plan a transaction",
+          "send later",
+          "schedule payment",
+          "delay transfer",
+          "schedule crypto transfer"
+        ]
+      },
+      {
+        "name": "web3_education",
+        "patterns": [
+          "what is web3",
+          "explain web3",
+          "tell me about web3",
+          "what is blockchain",
+          "how does blockchain work",
+          "what is solana",
+          "what is flow blockchain",
+          "explain solana",
+          "explain flow",
+          "what is a smart contract",
+          "what is an nft",
+          "how does solana work",
+          "how does flow work",
+          "what is a wallet",
+          "what is a token",
+          "what is consensus",
+          "what is proof of stake",
+          "what is proof of history"
+        ]
+      },
+      {
+        "name": "tutorials",
+        "patterns": [
+          "how to create a wallet",
+          "how to create a token",
+          "how to deploy a smart contract",
+          "how to bridge tokens",
+          "how to swap tokens",
+          "how to check my balance",
+          "how to send tokens",
+          "how to schedule a transaction"
+        ]
+      },
+      {
+        "name": "resources",
+        "patterns": [
+          "where can I learn more",
+          "recommend resources",
+          "show me tutorials",
+          "share documentation",
+          "show me videos",
+          "recommend articles"
+        ]
+      },
+      {
+        "name": "help",
+        "patterns": [
+          "help",
+          "what can you do",
+          "how does this work",
+          "show me commands",
+          "what are my options",
+          "guide me",
+          "help me"
+        ]
+      },
+      {
+        "name": "exit",
+        "patterns": [
+          "exit",
+          "goodbye",
+          "bye",
+          "stop",
+          "end",
+          "quit",
+          "close",
+          "see you later"
+        ]
+      }
+    ]
+  }
+  
